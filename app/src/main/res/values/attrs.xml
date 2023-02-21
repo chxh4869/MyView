@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="lineColor" format="color"/>
+        <attr name="lineText" format="string"/>
+        <attr name="linetextSize" format="dimension"/>
+        <attr name="lineSize" format="dimension"/>
+        <attr name="lineLength" format="dimension"/>
+        <attr name="lineicon" format="reference"/>
+        <attr name="iconSize" format="dimension"/>
+        <attr name="lineTextGravity" format="enum">
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr>
+        <attr name="lineTextMargin" format="dimension"/>
+        <attr name="lineTextColor" format="color"/>
+        <attr name="lineTextStyle" format="enum">
+            <enum name="FILL" value="0"/>
+            <enum name="STROKE" value="1"/>
+            <enum name="FILL_AND_STROKE" value="2"/>
+        </attr>
+        <attr name="lineTextStrokeSize" format="dimension"/>
+        <attr name="linePresentVisable" format="enum">
+            <enum name="Visable" value="0"/>
+            <enum name="Invisable" value="1"/>
+            <enum name="Gone" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
